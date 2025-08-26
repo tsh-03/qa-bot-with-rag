@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qa-bot-with-rag"
+version = "0.1"
+authors = [
+  { name="Tirth Shah", email="tirth.shah1994@gmail.com" },
+]
+description = "A simple question–answer bot built with RAG using LangChain. Demonstrates how retrieval-augmented generation works and includes a lightweight reinforcement learning component that adapts the system to improve answer quality over time."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "gradio",
+    "langchain",
+    "langchain-community",
+    "langchain-huggingface",
+    "langchain-ollama",
+    "chromadb",
+    "pypdf",
+    "pydantic",
+    "sentence-transformers",
+    "torch",
+    "transformers",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
