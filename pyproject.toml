@@ -8,7 +8,7 @@ version = "0.1"
 authors = [
   { name="Tirth Shah", email="tirth.shah1994@gmail.com" },
 ]
-description = "A simple question–answer bot built with RAG using LangChain. Demonstrates how retrieval-augmented generation works and includes a lightweight reinforcement learning component that adapts the system to improve answer quality over time."
+description = "A simple question–answer bot built with RAG (Retrieval-Augmented Generation) using LangChain and free local models. Upload a PDF document and ask questions about its content."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
