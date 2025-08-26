@@ -8,7 +8,7 @@ This repository is inspired by the final project of the Coursera course [**Gener
 
 ## 📷 Screenshots
 
-![RAG Chatbot Web Interface](./images/web_app_screenshot.png)
+<img src="./images/web_app_screenshot.png" alt="RAG Chatbot Web Interface" width="800">
 
 *Web application interface showing PDF upload, question input, and AI-generated answers*
 
@@ -23,7 +23,7 @@ This repository is inspired by the final project of the Coursera course [**Gener
 
 ### 1. Install Python Dependencies
 ```bash
-pip install -e .
+pip install .
 ```
 
 ### 2. Install Ollama (Local LLM)
@@ -66,19 +66,18 @@ python qabot.py
 ```
 Then open your browser and go to `http://localhost:7860`
 
-### Option 2: Jupyter Notebook Testing
-```bash
-jupyter notebook test_rag_notebook.ipynb
-```
-
-## How It Works
-
+#### How It Works
 1. **Upload a PDF file** using the file uploader
 2. **Type your question** in the text box
 3. **Get answers** based on the document content using:
    - **Ollama** (llama2) for question answering
    - **HuggingFace embeddings** for document retrieval
    - **ChromaDB** for vector storage
+
+### Option 2: Jupyter Notebook Testing
+```bash
+jupyter notebook test_rag_notebook.ipynb
+```
 
 ## Project Structure
 
