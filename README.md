@@ -84,6 +84,7 @@ jupyter notebook test_rag_notebook.ipynb
 - `qabot.py` - Main Gradio web application
 - `test_rag_notebook.ipynb` - Jupyter notebook for testing
 - `rag_functions.py` - Shared RAG functions module
+- `sample_pdfs/` - Directory containing sample PDF files for testing
 - `pyproject.toml` - Project dependencies
 - `README.md` - This file
 
